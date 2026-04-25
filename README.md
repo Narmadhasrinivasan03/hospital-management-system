@@ -1,24 +1,24 @@
-# 🏥 Hospital Management System (Python + Oracle)
+# Hospital Management System (Python + Oracle)
 
-## 📌 Project Overview
+## Project Overview
 
 This project is a complete Hospital Management Database System built using **Python** and **Oracle Database**.
 It simulates real-world hospital operations including patient management, appointments, admissions, billing, medicines, and lab tests.
 
 ---
 
-## 🚀 Features
+## Features
 
-* 📊 Data cleaning and import from CSV (Patients, Doctors, Appointments)
-* 🏥 Automated **Admissions generation**
-* 💊 Realistic **Medicine prescriptions with cost**
-* 🧪 Intelligent **Lab test assignment based on diagnosis**
-* 💰 Dynamic **Billing system (Room + Treatment)**
-* 🔗 Fully relational database with foreign key constraints
+*  Data cleaning and import from CSV (Patients, Doctors, Appointments)
+*  Automated **Admissions generation**
+*  Realistic **Medicine prescriptions with cost**
+*  Intelligent **Lab test assignment based on diagnosis**
+*  Dynamic **Billing system (Room + Treatment)**
+*  Fully relational database with foreign key constraints
 
 ---
 
-## 🗂️ Database Tables
+## Database Tables
 
 * **Patients**
 * **Doctors**
@@ -30,7 +30,7 @@ It simulates real-world hospital operations including patient management, appoin
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 * Python
 * Oracle Database (oracledb)
@@ -39,7 +39,7 @@ It simulates real-world hospital operations including patient management, appoin
 
 ---
 
-## 🧠 Key Logic Implemented
+## Key Logic Implemented
 
 * Medical notes generated based on **reason for visit**
 * Lab tests assigned only when medically relevant
@@ -56,7 +56,7 @@ It simulates real-world hospital operations including patient management, appoin
 
 ---
 
-## 🔐 Security Practice
+## Security Practice
 
 * Database credentials stored securely using `.env` file
 * `.env` excluded using `.gitignore`
@@ -87,7 +87,7 @@ GROUP BY
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Web UI using Flask / Django
 * Dashboard visualization
@@ -95,6 +95,6 @@ GROUP BY
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Developed as a beginner-to-intermediate level project to demonstrate **Database Design + Python Automation skills**
